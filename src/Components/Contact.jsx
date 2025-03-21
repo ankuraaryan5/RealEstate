@@ -1,29 +1,24 @@
 import React, { useState } from "react";
 import { motion } from "motion/react";
-
 function Contact() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: "",
   });
-
   const handleChange = (e) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
     });
   };
-
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form Data Submitted:", formData);
-
     if (!formData.name || !formData.email || !formData.message) {
       alert("Please fill in all fields.");
       return;
     }
-
     alert("Message sent successfully!");
     setFormData({
       name: "",
@@ -31,10 +26,8 @@ function Contact() {
       message: "",
     });
   };
-
   return (
     <div className="px-8 py-12 bg-gray-100">
-      {/* Contact Us Heading */}
       <motion.h1
         className="text-3xl font-bold text-center mb-8 text-green-600"
         initial={{ opacity: 0, y: -50 }}
@@ -43,15 +36,13 @@ function Contact() {
       >
         Contact Us
       </motion.h1>
-
       <motion.div
         className="grid grid-cols-1 md:grid-cols-2 gap-8 bg-white p-8 rounded-lg shadow-lg"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: "easeOut" }}
-        viewport={{ once: false, amount: 0.3 }} // Triggers when 30% of component is visible
+        viewport={{ once: false, amount: 0.3 }}
       >
-        {/* Left Section - Contact Info */}
         <motion.div
           className="flex flex-col justify-center"
           initial={{ opacity: 0, x: -100 }}
@@ -71,8 +62,6 @@ function Contact() {
             ✉️ <strong>Email:</strong> contact@realestate.com
           </p>
         </motion.div>
-
-        {/* Right Section - Contact Form */}
         <motion.div
           className="bg-gray-50 p-6 rounded-lg shadow-md"
           initial={{ opacity: 0, x: 100 }}
@@ -126,5 +115,4 @@ function Contact() {
     </div>
   );
 }
-
 export default Contact;
