@@ -39,10 +39,8 @@ function Contact() {
       <h1 className="text-3xl font-bold text-center mb-8 text-green-600">
         Contact Us
       </h1>
-
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 bg-white p-8 rounded-lg shadow-lg">
-        {/* Contact Details */}
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col justify-center" data-aos="flip-left">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">
             Get in Touch
           </h2>
@@ -57,9 +55,7 @@ function Contact() {
             ✉️ <strong>Email:</strong> contact@realestate.com
           </p>
         </div>
-
-        {/* Contact Form */}
-        <div className="bg-gray-50 p-6 rounded-lg shadow-md">
+        <div className="bg-gray-50 p-6 rounded-lg shadow-md" data-aos="flip-right">
           <h2 className="text-xl font-semibold text-gray-800 mb-4">
             Send a Message
           </h2>

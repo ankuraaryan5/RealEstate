@@ -10,7 +10,7 @@ function Landing() {
     <div className="min-h-screen bg-gray-100">
       <Header />
       <Navbar />
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-8 py-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-8 py-16" data-aos="zoom-in">
         <div className="flex flex-col items-center text-center md:items-start md:text-left">
           <h1 className="text-5xl font-bold leading-tight">
             Discover Your Dream <span className="text-green-600">Home</span>
@@ -36,7 +36,7 @@ function Landing() {
             </div>
           </div>
         </div>
-        <img src="https://images.unsplash.com/photo-1602941525421-8f8b81d3edbb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Landing Image" className="w-full h-auto object-cover rounded-2xl"/>
+        <img src="https://images.unsplash.com/photo-1602941525421-8f8b81d3edbb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Landing Image" className="w-full h-auto object-cover rounded-2xl" />
       </div>
       <Listings />
       <Contact />
