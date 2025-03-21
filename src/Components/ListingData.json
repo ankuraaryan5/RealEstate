@@ -6,8 +6,6 @@
       "price": "$2,500,000",
       "image": "https://images.unsplash.com/photo-1629016943072-0bf0ce4e2608?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "A stunning luxury villa with a swimming pool and breathtaking views.",
-      "bedrooms": 4,
-      "bathrooms": 3,
       "size": "3500 sqft"
     },
     {
@@ -17,8 +15,6 @@
       "price": "$800,000",
       "image": "https://images.unsplash.com/photo-1629016943072-0bf0ce4e2608?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "A stylish modern apartment in the heart of the city with top amenities.",
-      "bedrooms": 2,
-      "bathrooms": 2,
       "size": "1200 sqft"
     },
     {
@@ -28,8 +24,6 @@
         "price": "$450,000",
         "image": "https://images.unsplash.com/photo-1629016943072-0bf0ce4e2608?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "A beautiful cozy cottage surrounded by nature, perfect for relaxation.",
-        "bedrooms": 3,
-        "bathrooms": 2,
         "size": "1500 sqft"
       },
       {
@@ -39,8 +33,6 @@
         "price": "$1,200,000",
         "image": "https://images.unsplash.com/photo-1629016943072-0bf0ce4e2608?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "A charming townhouse with a modern interior and a serene backyard.",
-        "bedrooms": 3,
-        "bathrooms": 2,
         "size": "1800 sqft"
       }
   ]
