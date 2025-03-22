@@ -9,7 +9,7 @@ function ListingCard({ listing }) {
         alt={listing.title}
         className="w-full h-48 object-cover"
       />
-      <div className="p-4">
+      {/* <div className="p-4">
         <h2 className="text-xl font-bold">{listing.title}</h2>
         <p className="text-gray-500">{listing.location}</p>
         <p className="text-green-600 font-semibold">{listing.price}</p>
@@ -20,7 +20,7 @@ function ListingCard({ listing }) {
         >
           View Details
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 }
