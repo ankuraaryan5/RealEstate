@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Disallow dynamic listing pages if needed in the future
+Disallow: /listings/
+
+# Sitemap location (replace with your actual domain)
+Sitemap: https://yourwebsite.com/sitemap.xml
