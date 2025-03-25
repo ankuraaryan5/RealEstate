@@ -4,12 +4,12 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="flex w-full items-center justify-between py-2 relative px-8">
+    <div className="flex w-full items-center justify-between py-2 relative md:px-8">
       <h1 className="text-3xl font-bold text-green-500" data-aos="fade-right">
         Royal <span>Majestic </span><span className="text-black">Properties</span>
       </h1>
       <button
-        className="bg-green-500 p-2 text-white rounded-full hover:bg-green-600 hover:scale-105"
+        className="bg-green-500 px-4 p-2 text-white rounded-full hover:bg-green-600 hover:scale-105"
         data-aos="fade-left"
         onClick={() => setIsOpen(true)}
       >
