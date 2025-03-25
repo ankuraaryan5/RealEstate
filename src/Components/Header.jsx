@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <div className="flex w-full flex-row items-center justify-between bg-green-500 p-2" data-aos="flip-up">
+    <div className="flex w-full flex-row items-center justify-between bg-green-500 py-2 px-8" data-aos="flip-up">
       <div className="flex items-center justify-center gap-2 text-white" >
         <h4>+ 9110111497</h4>
         <h4>+ 6205850622</h4>

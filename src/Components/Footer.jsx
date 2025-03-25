@@ -19,7 +19,7 @@ function Footer() {
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <p className="text-sm">&copy; {new Date().getFullYear()} RealEstate Co.</p>
+          <p className="text-sm">&copy; {new Date().getFullYear()} RoyalMajesticProperties</p>
           <p className="text-sm">All rights reserved.</p>
         </motion.div>
 
@@ -30,8 +30,8 @@ function Footer() {
           transition={{ duration: 0.8, delay: 0.4 }}
         >
           <h3 className="text-lg font-semibold">Contact Us</h3>
-          <p className="text-sm mt-1">📧 Email: info@example.com</p>
-          <p className="text-sm">📍 Location: New York, USA</p>
+          <p className="text-sm mt-1">📧 Email: royalmajesticproperties@gmail.com</p>
+          <p className="text-sm">📍 Location: Near Hariharnath Mandir, Sonpur, Saran, Bihar</p>
         </motion.div>
 
         <motion.div 

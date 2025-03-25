@@ -53,13 +53,16 @@ function Contact() {
             Get in Touch
           </h2>
           <p className="text-gray-600 mb-2">
-            📍 <strong>Address:</strong> 123 Dream Street, Beverly Hills, CA 90210
+            📍 <strong>Address:</strong> Near Hariharnath Mandir, Sonpur, Saran, Bihar
           </p>
           <p className="text-gray-600 mb-2">
-            📞 <strong>Phone:</strong> +1 234 567 890
+            📞 <strong>Phone:</strong> 9110111497
+          </p>
+          <p className="text-gray-600 mb-2">
+            📞 <strong>Phone:</strong> 6205850622
           </p>
           <p className="text-gray-600">
-            ✉️ <strong>Email:</strong> contact@realestate.com
+            ✉️ <strong>Email:</strong> royalmajesticproperties@gmail.com
           </p>
         </motion.div>
         <motion.div

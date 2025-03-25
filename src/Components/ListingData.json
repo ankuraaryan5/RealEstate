@@ -1,39 +1,27 @@
 [
     {
       "id": 1,
-      "title": "Luxury Villa",
-      "location": "Beverly Hills, CA",
-      "price": "$2,500,000",
-      "image": "https://images.unsplash.com/photo-1629016943072-0bf0ce4e2608?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "A stunning luxury villa with a swimming pool and breathtaking views.",
-      "size": "3500 sqft"
+      "image": "../../assets/img1.jpg"
     },
     {
       "id": 2,
-      "title": "Modern Apartment",
-      "location": "New York, NY",
-      "price": "$800,000",
-      "image": "https://images.unsplash.com/photo-1629016943072-0bf0ce4e2608?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "A stylish modern apartment in the heart of the city with top amenities.",
-      "size": "1200 sqft"
+      "image": "../../assets/img2.jpg"
     },
     {
-        "id": 3,
-        "title": "Cozy Cottage",
-        "location": "Aspen, CO",
-        "price": "$450,000",
-        "image": "https://images.unsplash.com/photo-1629016943072-0bf0ce4e2608?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "description": "A beautiful cozy cottage surrounded by nature, perfect for relaxation.",
-        "size": "1500 sqft"
-      },
-      {
-        "id": 4,
-        "title": "Charming Townhouse",
-        "location": "San Francisco, CA",
-        "price": "$1,200,000",
-        "image": "https://images.unsplash.com/photo-1629016943072-0bf0ce4e2608?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "description": "A charming townhouse with a modern interior and a serene backyard.",
-        "size": "1800 sqft"
-      }
+      "id": 3,
+      "image": "../../assets/img3.jpg"
+    },
+    {
+      "id": 4,
+      "image": "../../assets/img4.jpg"
+    },
+    {
+      "id": 5,
+      "image": "../../assets/img5.jpg"
+    },
+    {
+      "id": 6,
+      "image": "../../assets/img6.jpg"
+    }
   ]
   
